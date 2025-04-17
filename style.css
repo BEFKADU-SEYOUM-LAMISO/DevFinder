@@ -1,0 +1,79 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #8B949E;
+}
+
+.container{
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+    background-color: #283241;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0,0.3);
+}
+
+#userInput{
+    width: 90%;
+    padding:10px;
+    margin: 20px;
+    
+}
+
+#search{
+    background-color: #459cff;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    
+}
+#search:hover{
+    background-color: #84bcfc;
+
+}
+
+h1{
+    color: #C9D1D9;
+    text-align: center;
+}
+
+.profile{
+    margin: 20px;
+    padding: 20px; 
+    border-radius: 20px;
+    background-color: #725679;
+}
+#avatar{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.profile *{
+    margin: 20px;
+    color: #C9D1D9;
+    font-size: 1.5rem;
+}
+.hidden{
+    display: none;
+}
+
+#loading{
+    color: #58A6FF;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+}
